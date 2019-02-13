@@ -2,9 +2,10 @@ public class Main {
 
     public static void main(String[] args){
 
+        System.out.println("Hello World");
+
 
         System.out.println("Hello Raul!");
-
 
         int adunare = 7 + 8;
         System.out.println(adunare);
@@ -29,6 +30,7 @@ public class Main {
         int ecuatie4 = ( 5 + 15 / 3 * 2 - 8 % 3);
         System.out.println(ecuatie4);
         System.out.println(" Rezultatul ecuatie 4 este: " + ecuatie4);
+
     }
 
 }
