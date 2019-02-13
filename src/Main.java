@@ -20,5 +20,6 @@ public class Main {
 
         System.out.println( 5 + 15 / 3 * 2 - 8 % 3);
     }
+
 }
 
