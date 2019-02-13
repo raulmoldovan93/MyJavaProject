@@ -4,6 +4,7 @@ public class Main {
 
         System.out.println("Hello Raul!");
 
+
         int adunare = 7 + 8;
         System.out.println(adunare);
         System.out.println(" Rezultatul adunarii dintre 7 si 8 este: " + adunare);
