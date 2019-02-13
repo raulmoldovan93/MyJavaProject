@@ -4,11 +4,11 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println(1 + 2);
 
-
         System.out.println("Hello Raul!");
 
         int adunare = 7 + 8;
         System.out.println(adunare);
+        System.out.println(" Rezultatul adunarii dintre 7 + 8 este: " + adunare);
 
         int impartire = 26 / 2;
         System.out.println(impartire);
