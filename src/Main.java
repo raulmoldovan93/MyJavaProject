@@ -14,13 +14,21 @@ public class Main {
         System.out.println(impartire);
         System.out.println(" Rezultatul impartirii dintre 26 si 2 este: " + impartire);
 
-        System.out.println( -5 + 8  * 6 );
+        int ecuatie1 = (-5 + 8 * 6);
+        System.out.println(ecuatie1 );
+        System.out.println(" Rezultatul ecuatie 1 este: " + ecuatie1);
 
-        System.out.println(( 55 + 9 ) % 9);
+        int ecuatie2 = ((55 + 9) % 9);
+        System.out.println(ecuatie2);
+        System.out.println(" Rezultatul ecuatie 2 este: " + ecuatie2);
 
-        System.out.println( 20 + (((-3) * 5) / 8 ) );
+        int ecuatie3 = (20 + (((-3) * 5) / 8 ));
+        System.out.println(ecuatie3);
+        System.out.println(" Rezultatul ecuatie 3 este: " + ecuatie3);
 
-        System.out.println( 5 + 15 / 3 * 2 - 8 % 3);
+        int ecuatie4 = ( 5 + 15 / 3 * 2 - 8 % 3);
+        System.out.println(ecuatie4);
+        System.out.println(" Rezultatul ecuatie 4 este: " + ecuatie4);
     }
 
 }
