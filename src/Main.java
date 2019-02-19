@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
+
+
 public class Main {
 
+
     public static void main(String[] args) {
+
 
 //        System.out.println("Hello World");
 //
@@ -32,27 +38,73 @@ public class Main {
 //        System.out.println(" Rezultatul ecuatie 4 este: " + ecuatie4)
 
 
-        int res = scadere(4, 2);
-        System.out.println(res);
-        System.out.println(scadere(5,5));
-        System.out.println(inmultire(4,5));
-        System.out.println(impartire(20,2));
-    }
+//        int res = scadere(4, 2);
+//        System.out.println(res);
+//        System.out.println(scadere(5,5));
+//        System.out.println(inmultire(4,5));
+//        System.out.println(impartire(20,2));
+//        System.out.println(adunare(16, 10));
 
-    public static int scadere(int primulNumar, int alDoileaNumar) {
-        int resultat = primulNumar - alDoileaNumar;
+        // exercitiul 1 //
+        System.out.println(product(26,26));
+        // exercitiul 2 //
+        System.out.println("    J    a   v     v   a   " );
+        System.out.println("    J   a a   v   v   a a    ");
+        System.out.println(" J  J  aaaaa   V V   aaaaa");
+        System.out.println("  JJ  a     a   v   a     a");
+        // exercitiul 3 //
+        System.out.println(average(10,20,30));
+        // exercitiul 4 //
+        System.out.println(" +\"\"\"\"\"+");
+        System.out.println("[| o o |] ");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +-----+  ");
+        // exercitiul 5 //
+
+
+
+
+    }
+//
+//
+//    public static int scadere(int primulNumar, int alDoileaNumar) {
+//        int resultat = primulNumar - alDoileaNumar;
+//        return resultat;
+//    }
+//
+//        public static int inmultire (int primulNumar , int alDoileaNumar){
+//        int resultat = primulNumar * alDoileaNumar;
+//                return resultat;
+//    }
+//
+//    public static int impartire (int primulNumar, int alDoileaNumar) {
+//        int resultat = primulNumar % alDoileaNumar;
+//        return resultat;
+
+
+//    public static int adunare (int primulNumar, int alDoileaNumar)
+//    {
+//        int resultat = primulNumar + alDoileaNumar;
+//        return  resultat;
+//    }
+
+    public static int product(int firstNumber, int secondNumber)
+    {
+        int resultat = firstNumber * secondNumber;
         return resultat;
     }
-
-        public static int inmultire (int primulNumar , int alDoileaNumar){
-        int resultat = primulNumar * alDoileaNumar;
-                return resultat;
-    }
-
-    public static int impartire (int primulNumar, int alDoileaNumar) {
-        int resultat = primulNumar % alDoileaNumar;
+    public static int average(int firstNumber, int secondNumber, int thirdNumber){
+        int resultat = (firstNumber + secondNumber + thirdNumber) / 3 ;
         return resultat;
     }
-}
+    }
+
+
+
+
+
+
+
 
 
