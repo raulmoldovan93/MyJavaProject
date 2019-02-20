@@ -61,6 +61,12 @@ public class Main {
         System.out.println(" | '-' | ");
         System.out.println(" +-----+  ");
         // exercitiul 5 //
+        System.out.println(addition(125,24));
+        System.out.println(multiply(125,24));
+        System.out.println(subtract(125,24));
+        System.out.println(divide(125, 24));
+        System.out.println(remainder(125,24));
+        // exercitiul 6 //
 
 
 
@@ -88,16 +94,42 @@ public class Main {
 //        int resultat = primulNumar + alDoileaNumar;
 //        return  resultat;
 //    }
-
+// exercitiul 1 //
     public static int product(int firstNumber, int secondNumber)
     {
         int resultat = firstNumber * secondNumber;
         return resultat;
     }
-    public static int average(int firstNumber, int secondNumber, int thirdNumber){
+    // exercitiul 3 //
+    public static int average(int firstNumber, int secondNumber, int thirdNumber)
+    {
         int resultat = (firstNumber + secondNumber + thirdNumber) / 3 ;
         return resultat;
     }
+    // exercitiul 5 //
+    public static int addition (int firstNumber, int secondNumber){
+        int resultat = (firstNumber + secondNumber);
+        return resultat;
+    }
+    public static int multiply (int firstNumber, int secondNumber){
+        int resultat = (firstNumber * secondNumber);
+        return resultat;
+    }
+    public static int subtract (int fisrtNumber, int secondNumber){
+        int resultat = (fisrtNumber - secondNumber);
+        return resultat;
+    }
+    public static int divide (int firstNumber, int secondNumber){
+        int resultat = (firstNumber / secondNumber);
+        return resultat;
+    }
+    public static int remainder (int firstNumber, int secondNumber){
+        int resultat = (firstNumber % secondNumber);
+        return resultat;
+    }
+
+
+
     }
 
 
