@@ -1,9 +1,14 @@
-
 public class Grafice {
 
-    public String afisareHelloNume() {
-        return "Hello \n Moldovan Raul";
+    public static String afisareHelloNume() {
+        return "Hello \nMoldovan Raul";
     }
 
 
+
 }
+
+
+
+
+
