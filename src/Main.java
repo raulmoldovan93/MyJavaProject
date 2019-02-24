@@ -1,200 +1,61 @@
 import java.util.Scanner;
 
 
-
 public class Main {
 
-
     public static void main(String[] args) {
-
-        DOG rex = new DOG();
-        rex.nume = "Rex";
-        rex.culoare = "Rosu";
-        rex.greutate = 3.4f;
-        rex.rasa = "Bichon";
-        rex.varsta = 3;
-
-        DOG dingo = new DOG();
-        dingo.nume = "Dingo";
-        dingo.greutate = 35;
-        dingo.rasa = "Ciobanesc";
-        dingo.varsta = 1;
-        dingo.culoare = "Maro";
-
-        DOG gigi = new DOG();
-        gigi.nume = "Gigi";
-        gigi.greutate = 8;
-        gigi.rasa = "Pug";
-        gigi.varsta = 2;
-        gigi.culoare = "Negru";
-
-        System.out.println(rex.culoare);
-
-        Fetita ana = new Fetita();
-        ana.nume = "Popescu";
-        ana.prenume = "Ana";
-        ana.varsta = 26;
-        ana.nationalitate = "Romana";
-        ana.localitate = "Cluj-Napoca";
-
-        Fetita eva = new Fetita();
-        eva.nume = "Milano";
-        eva.prenume = "Eva";
-        eva.varsta = 20;
-        eva.nationalitate = "Italiana";
-        eva.localitate = "Milano";
-
-
-
-
-
-
-
-
-
-
-
-
-
-Scanner scanez = new Scanner(System.in);
-//        System.out.print("Introdu un int: ");
-int x = scanez.nextInt();
-//        System.out.print("Introdu un String: ");
-//String y = scanez.next();
-//        System.out.print("Introdu un float: ");
-//int z = scanez.nextInt();
-
+//        int x = 3;
+//        int y = 4;
+//        String nume = "Raul";
+//
+//        double adunare = x + 2.3f;
+//
+//        System.out.println("prima adunare = " + (x + 2.3f));
+//
+//        adunare++;    // adunare = adunare + 1;
+//        adunare += 3; // adunare = adunare + 3;
+//
+//        System.out.println("a doua adunare = " + adunare);
+//        int scadere = x - y;
+//
+//        System.out.println("Rezultatul scaderii dintre " + x + " si " + y + " este " + scadere);
+//
+//        System.out.println(" 1+2 ");
 //        System.out.println("Hello World");
-//
-//
-//        System.out.println("Hello Raul!");
-//
-//        byte adunare = 7 + 8;
-//        System.out.println(adunare);
-//        System.out.println(" Rezultatul adunarii dintre 7 si 8 este: " + adunare);
-//
-//        byte impartire = 26 / 2;
-//        System.out.println(impartire);
-//        System.out.println(" Rezultatul impartirii dintre 26 si 2 este: " + impartire);
-//
-//        byte ecuatie1 = (-5 + 8 * 6);
-//        System.out.println(ecuatie1);
-//        System.out.println(" Rezultatul ecuatie 1 este: " + ecuatie1);
-//
-//        byte ecuatie2 = ((55 + 9) % 9);
-//        System.out.println(ecuatie2);
-//        System.out.println(" Rezultatul ecuatie 2 este: " + ecuatie2);
-//
-//        float ecuatie3 = (20 + (((-3) * 5) / 8));
-//        System.out.println(ecuatie3);
-//        System.out.println(" Rezultatul ecuatie 3 este: " + ecuatie3);
-//
-//        byte ecuatie4 = (5 + 15 / 3 * 2 - 8 % 3);
-//        System.out.println(ecuatie4);
-//        System.out.println(" Rezultatul ecuatie 4 este: " + ecuatie4)
 
+// tema.1, ex.1 //;
 
-//        int res = scadere(4, 2);
-//        System.out.println(res);
-//        System.out.println(scadere(5,5));
-//        System.out.println(inmultire(4,5));
-//        System.out.println(impartire(20,2));
-//        System.out.println(adunare(16, 10));
+        System.out.println("Hello \nRaul Moldovan");
 
-        // exercitiul 1 //
-//        System.out.print("Rezultat ex1: ");
-//        System.out.println(product(26,26));
-//
-////        System.out.print("Rezultat ex2 ");
-//        System.out.println("    J    a   v     v   a   " );
-//        System.out.println("    J   a a   v   v   a a    ");
-//        System.out.println(" J  J  aaaaa   V V   aaaaa");
-//        System.out.println("  JJ  a     a   v   a     a");
-//
-//        System.out.print("Rezultat ex3: ");
-//        System.out.println(average(10,20,30));
-//
-////        System.out.print("Rezultat ex4: ");
-//        System.out.println(" +\"\"\"\"\"+");
-//        System.out.println("[| o o |] ");
-//        System.out.println(" |  ^  | ");
-//        System.out.println(" | '-' | ");
-//        System.out.println(" +-----+  ");
-//
-//        System.out.print("Rezultat ex5 adunare: ");
-//        System.out.println(addition(125,24));
-//        System.out.print("Rezultat ex5 inmultire: ");
-//        System.out.println(multiply(125,24));
-//        System.out.print("Rezultat ex5 scadere: ");
-//        System.out.println(subtract(125,24));
-//        System.out.print("Rezultat ex5 impartire: ");
-//        System.out.println(divide(125, 24));
-//        System.out.print("Rezultat ex5 rest: ");
-//        System.out.println(remainder(125,24));
+// tema.1, ex.2 //;
 
+        byte adunare = 8 + 7;
+        System.out.println("rezultatul adunarii dintre 8 si 7 este: " + adunare);
+
+// tema.1, ex.3 //;
+
+        byte impartire = 26 / 2;
+        System.out.println("rezultatul impartirii dintre 26 si 2 este: " + impartire);
+
+//tema.1, ex.4 //;
+
+        byte ecuatie1 = (-5 + 8 * 6);
+        System.out.println("rezultatul ecuatie1 este: " + ecuatie1);
+
+        byte ecuatie2 = ((55 + 9) % 9);
+        System.out.println("rezultatul ecuatie2 este: " + ecuatie2);
+
+        float ecuatie3 = (20 + (((-3 * 5) / 8f)));
+        System.out.println("rezultatul ecuatie3 este: " + ecuatie3);
+
+        byte ecuatie4 = (5 + 15 / 3 * 2 - 8 % 3);
+        System.out.println("rezultatul ecuatie4 este: " + ecuatie4);
 
 
     }
-//
-//
-//    public static int scadere(int primulNumar, int alDoileaNumar) {
-//        int resultat = primulNumar - alDoileaNumar;
-//        return resultat;
-//    }
-//
-//        public static int inmultire (int primulNumar , int alDoileaNumar){
-//        int resultat = primulNumar * alDoileaNumar;
-//                return resultat;
-//    }
-//
-//    public static int impartire (int primulNumar, int alDoileaNumar) {
-//        int resultat = primulNumar % alDoileaNumar;
-//        return resultat;
-//
-//
-//    public static int adunare (int primulNumar, int alDoileaNumar)
-//    {
-//        int resultat = primulNumar + alDoileaNumar;
-//        return  resultat;
-//    }
-
-//    public static int product(int firstNumber, int secondNumber)
-//    {
-//        int resultat = firstNumber * secondNumber;
-//        return resultat;
-//    }
-//
-//    public static int average(int firstNumber, int secondNumber, int thirdNumber)
-//    {
-//        int resultat = (firstNumber + secondNumber + thirdNumber) / 3 ;
-//        return resultat;
-//    }
-//    // exercitiul 5 //
-//    public static int addition (int firstNumber, int secondNumber){
-//        int resultat = (firstNumber + secondNumber);
-//        return resultat;
-//    }
-//    public static int multiply (int firstNumber, int secondNumber){
-//        int resultat = (firstNumber * secondNumber);
-//        return resultat;
-//    }
-//    public static int subtract (int fisrtNumber, int secondNumber){
-//        int resultat = (fisrtNumber - secondNumber);
-//        return resultat;
-//    }
-//    public static int divide (int firstNumber, int secondNumber){
-//        int resultat = (firstNumber / secondNumber);
-//        return resultat;
-//    }
-//    public static int remainder (int firstNumber, int secondNumber){
-//        int resultat = (firstNumber % secondNumber);
-//        return resultat;
-//    }
 
 
-
-
-    }
+}
 
 
 
