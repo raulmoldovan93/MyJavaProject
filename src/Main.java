@@ -6,40 +6,53 @@ public class Main {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
 
-        Dog rex = new Dog();
+        OperatiiLogice op = new OperatiiLogice();
 
-        rex.setNume("Rex");
-        rex.setVarsta(1);
-        rex.setCuloare("negru");
-        rex.setGreutate(15);
-        rex.setRasa("caine lup");
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(rex.getNume());
-        System.out.println(rex.getVarsta());
-        System.out.println(rex.getCuloare());
-        System.out.println(rex.getGreutate());
-        System.out.println(rex.getRasa());
+//        op.sumAndAverageHundred();
 
-        int x = 10;
-        int y = 15;
+        int x = 2;
+        x += x +=x++ + ++x;
+        System.out.println(x);
 
-        if (x < y) {
-            System.out.println("y mai mare ca x");
-        } else if (x > y) {
-            System.out.println("y mai mic ca y");
-        }
 
-        String a = "FastTrack";
-        String b = "Learning text comparison";
-        String c = "Got to try some more";
 
-        if (!a.equals(b)) {
-            System.out.println("FastTrack");
-        } else if (!b.equals(c)) {
-            System.out.println("Learning text comparison");
-        } else if (!c.equals(a)) {
-            System.out.println("Got to try some more");
-        }
+//
+//        Dog rex = new Dog();
+//
+//        rex.setNume("Rex");
+//        rex.setVarsta(1);
+//        rex.setCuloare("negru");
+//        rex.setGreutate(15);
+//        rex.setRasa("caine lup");
+//
+//        System.out.println(rex.getNume());
+//        System.out.println(rex.getVarsta());
+//        System.out.println(rex.getCuloare());
+//        System.out.println(rex.getGreutate());
+//        System.out.println(rex.getRasa());
+//
+//        int x = 10;
+//        int y = 15;
+//
+//        if (x < y) {
+//            System.out.println("y mai mare ca x");
+//        } else if (x > y) {
+//            System.out.println("y mai mic ca y");
+//        }
+//
+//        String a = "FastTrack";
+//        String b = "Learning text comparison";
+//        String c = "Got to try some more";
+//
+//        if (!a.equals(b)) {
+//            System.out.println("FastTrack");
+//        } else if (!b.equals(c)) {
+//            System.out.println("Learning text comparison");
+//        } else if (!c.equals(a)) {
+//            System.out.println("Got to try some more");
+//        }
 
 
     }

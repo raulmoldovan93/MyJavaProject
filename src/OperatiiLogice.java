@@ -39,4 +39,31 @@ public class OperatiiLogice {
         }
 
     }
+
+    public void printToHundred(int number) {
+        for (int i = number; i <= 100; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public void sumAndAverageHundred() {
+
+        int rezultat = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 != 0) {
+                rezultat += i;
+            }
+        }
+        System.out.println(rezultat);
+        System.out.println("Media numerelor este: " + rezultat / 50);
+
+
+    }
+
+
+
 }
+
+
+
