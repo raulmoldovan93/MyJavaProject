@@ -1,12 +1,13 @@
 public class Grafice {
 
-    public static String afisareHelloNume() {
+    public String afisareHelloNume() {
         return "Hello \nMoldovan Raul";
     }
 
 
+    }
 
-}
+
 
 
 

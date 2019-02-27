@@ -3,17 +3,51 @@ import java.util.Scanner;
 public class Main {
 
 
-    public static float myFloat = 3.2f;
-
     public static void main(String[] args) {
-        Scanner scanez = new Scanner(System.in);
+        Calculator calc = new Calculator();
 
-        Dog rex = new Dog("rosu", 3,
-                15.5f, "doberman", "Rex");
-        System.out.println(rex.culoare);
+        Dog rex = new Dog();
 
-//        int x = 3;
-//        int z = 4;
+        rex.setNume("Rex");
+        rex.setVarsta(1);
+        rex.setCuloare("negru");
+        rex.setGreutate(15);
+        rex.setRasa("caine lup");
+
+        System.out.println(rex.getNume());
+        System.out.println(rex.getVarsta());
+        System.out.println(rex.getCuloare());
+        System.out.println(rex.getGreutate());
+        System.out.println(rex.getRasa());
+
+        int x = 10;
+        int y = 15;
+
+        if (x < y) {
+            System.out.println("y mai mare ca x");
+        } else if (x > y) {
+            System.out.println("y mai mic ca y");
+        }
+
+        String a = "FastTrack";
+        String b = "Learning text comparison";
+        String c = "Got to try some more";
+
+        if (!a.equals(b)) {
+            System.out.println("FastTrack");
+        } else if (!b.equals(c)) {
+            System.out.println("Learning text comparison");
+        } else if (!c.equals(a)) {
+            System.out.println("Got to try some more");
+        }
+
+
+    }
+
+
+//    int x = 3;
+//    int z = 4;
+//
 //        String nume = "Raul";
 //
 //        double adunare = x + 2.3f;
@@ -30,7 +64,7 @@ public class Main {
 //
 //        System.out.println(" 1+2 ");
 //        System.out.println("Hello World");
-
+//
 //        System.out.println("T1,ex.1");
 //        System.out.println("Hello \nRaul Moldovan");
 //
@@ -56,7 +90,7 @@ public class Main {
 //        System.out.println("rezultatul ecuatie4 este: " + ecuatie4);
 //        System.out.println("\n");
 //
-
+//
 //        System.out.print("Introdu un int: ");
 //        int x = scanez.nextInt();
 //        System.out.print("Introdu un String: ");
@@ -66,14 +100,6 @@ public class Main {
 //
 //        float mySecondFloat = 3.3f;
 //        System.out.println(Grafice.afisareHelloNume());
-//
-//        int res = adunare(2, 3);
-//        System.out.println(res);
-//        System.out.println(adunare(x, z));
-//        System.out.println(scadere(5123, 123));
-//        System.out.println(inmultire(10, 10));
-//        System.out.println(impartire(5000, 100));
-
 
 //        Dog rex = new Dog();
 //        rex.nume = "Rex";
@@ -99,32 +125,16 @@ public class Main {
 //
 //        System.out.println(rex.culoare);
 
-//        System.out.println(product(25, 3));
-//
-//
 //        System.out.println("   J   a  v     v  a");
 //        System.out.println("   J  a a  v   v  a a");
 //        System.out.println("J  J aaaaa  V V  aaaaa");
 //        System.out.println(" JJ a     a  V  a     a");
-//
-//
-//        System.out.println(averege(10, 20, 30));
-//
-//
+
 //        System.out.println("  +\"\"\"\"\"+ ");
 //        System.out.println(" [| o o |] ");
 //        System.out.println("  |  ^  |");
 //        System.out.println("  | '-' |");
 //        System.out.println("  +-----+");
-//
-//
-//        System.out.println(addition(125, 24));
-//        System.out.println(substract(125, 24));
-//        System.out.println(multiply(125, 24));
-//        System.out.println(divide(125, 24));
-//        System.out.println(remainder(125, 24));
-//
-//
 
 //        Scanner convertg = new Scanner(System.in);
 //        System.out.println("Introdu o temperatura in grade Fahrenheit: ");
@@ -132,7 +142,7 @@ public class Main {
 //        float Celsius = (fahrenheit - 32) * 5 / 9;
 //
 //        System.out.println("Temperatura in grade Celsius: " + Celsius);
-
+//
 //
 //
 //        Scanner convertm = new Scanner(System.in);
@@ -167,66 +177,8 @@ public class Main {
 //        System.out.println("Viteza in mile/ora: " + mph);
 
 
-    }
-
-
-//    public static int adunare(int primulNumar, int alDoileaNumar) {
-//        int resultat = primulNumar + alDoileaNumar;
-//        return resultat;
-//    }
-//
-//    public static int scadere(int primulNumar, int alDolieaNumar) {
-//        int resultat = primulNumar - alDolieaNumar;
-//        return resultat;
-//    }
-//
-//    public static int inmultire(int primulNumar, int alDoileaNumar) {
-//        int resultat = primulNumar * alDoileaNumar;
-//        return resultat;
-//    }
-//
-//    public static int impartire(int primulNumar, int alDoileaNumar) {
-//        int resultat = primulNumar / alDoileaNumar;
-//        return resultat;
-//    }
-
-    public static int product(int x, int y) {
-        int resultat = x * y;
-        return resultat;
-    }
-
-    public static int averege(int x, int y, int z) {
-        int resultat = (x + y + z) / 3;
-        return resultat;
-    }
-
-    public static int addition(int firstNumber, int secondNumber) {
-        int resultat = firstNumber + secondNumber;
-        return resultat;
-    }
-
-    public static int multiply(int firstNumber, int secondNumber) {
-        int resultat = firstNumber * secondNumber;
-        return resultat;
-    }
-
-    public static int substract(int firstNumber, int secondNumber) {
-        int resultat = firstNumber - secondNumber;
-        return resultat;
-    }
-
-    public static int divide(int firstNumber, int secondNumber) {
-        int resultat = firstNumber / secondNumber;
-        return resultat;
-    }
-
-    public static int remainder(int fisrtNumber, int secondNumber) {
-        int resultat = fisrtNumber % secondNumber;
-        return resultat;
-    }
-
-
 }
+
 
 
 
