@@ -8,14 +8,16 @@ public class Main {
 
         OperatiiLogice op = new OperatiiLogice();
 
+        Grafice graf = new Grafice();
+
         Scanner scanner = new Scanner(System.in);
 
 //        op.sumAndAverageHundred();
 
-        int x = 2;
-        x += x +=x++ + ++x;
-        System.out.println(x);
 
+//        int x = 2;
+//        x += x +=x++ + ++x;
+//        System.out.println(x);
 
 
 //
@@ -32,7 +34,8 @@ public class Main {
 //        System.out.println(rex.getCuloare());
 //        System.out.println(rex.getGreutate());
 //        System.out.println(rex.getRasa());
-//
+
+////Given two numbers, see which one is the greatest and print it
 //        int x = 10;
 //        int y = 15;
 //
@@ -42,20 +45,51 @@ public class Main {
 //            System.out.println("y mai mic ca y");
 //        }
 //
+//
+////Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print “Got to try some more”
 //        String a = "FastTrack";
 //        String b = "Learning text comparison";
 //        String c = "Got to try some more";
 //
-//        if (!a.equals(b)) {
-//            System.out.println("FastTrack");
-//        } else if (!b.equals(c)) {
+//        if (!a.contains("FastTrack")) {
 //            System.out.println("Learning text comparison");
-//        } else if (!c.equals(a)) {
+//        } else if (b.contains("Learning text comparison")) {
+//            System.out.println("Got to try some more");
+//        } else if (c.equals("Got to try some more")) {
 //            System.out.println("Got to try some more");
 //        }
 
+//Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number
+        int z = 20;
+
+        if (z >= 2) {
+            System.out.println(z);
+        } else  {
+            System.out.println("z egal sau mai mic cu 8");
+        }
+
+//     Given a text input and a number input, if the text is equal to “FastTrack” AND the number is equal to or lower than 3,
+//     print the text and the number. If the text is not “FastTrack” AND the number is equal to or higher than 4, print the number
+//     and the text, in this order.
+
+        String text = "Peaky Blinders";
+        int number = 1919;
+
+        if (text.equals("FastTrack")){
+            System.out.println(text);
+        }
+
+        if ( number <= 3){
+            System.out.println(number);
+        }
+
+
+
 
     }
+
+
+}
 
 
 //    int x = 3;
@@ -190,7 +224,6 @@ public class Main {
 //        System.out.println("Viteza in mile/ora: " + mph);
 
 
-}
 
 
 
