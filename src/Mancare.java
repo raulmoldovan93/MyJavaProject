@@ -1,8 +1,8 @@
 public class Mancare {
 
-    String producator;
-    int pret;
-    float gramaj;
+    private String producator;
+    private int pret;
+    private float gramaj;
 
 
 

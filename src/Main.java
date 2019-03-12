@@ -21,19 +21,20 @@ public class Main {
 
 
 //
-//        Dog rex = new Dog();
-//
-//        rex.setNume("Rex");
-//        rex.setVarsta(1);
-//        rex.setCuloare("negru");
-//        rex.setGreutate(15);
-//        rex.setRasa("caine lup");
-//
-//        System.out.println(rex.getNume());
-//        System.out.println(rex.getVarsta());
-//        System.out.println(rex.getCuloare());
-//        System.out.println(rex.getGreutate());
-//        System.out.println(rex.getRasa());
+        Dog rex = new Dog();
+
+        rex.setNume("Rex");
+        rex.setVarsta(1);
+        rex.setCuloare("negru");
+        rex.setGreutate(15);
+        rex.setRasa("caine lup");
+
+        System.out.println(rex.getNume());
+        System.out.println(rex.getVarsta());
+        System.out.println(rex.getCuloare());
+        System.out.println(rex.getGreutate());
+        System.out.println(rex.getRasa());
+
 
 ////Given two numbers, see which one is the greatest and print it.
 //        int x = 10;
@@ -59,58 +60,93 @@ public class Main {
 //            System.out.println("Got to try some more");
 //        }
 
-//Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number.
-        int z = 20;
+////Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number.
+//        int z = 20;
+//
+//        if (z >= 2) {
+//            System.out.println("z mai mare sau egal cu 2");
+//        } else if (z <= 8) {
+//            System.out.println("z mai mic sau egal cu 8");
+//        }
+//
+////     Given a text input and a number input, if the text is equal to “FastTrack” AND the number is equal to or lower than 3,
+////     print the text and the number. If the text is not “FastTrack” AND the number is equal to or higher than 4, print the number
+////     and the text, in this order.
+//
+//        String text = "Peaky Blinders";
+//        int number = 1919;
+//
+//        if (!text.equals("FastTrack")) {
+//            System.out.println(text);
+//        } else if (number <= 3) {
+//            System.out.println(number);
+//        }
+//        if (text.equals("FastTrack")) {
+//            System.out.println(text);
+//        } else if (number >= 4) {
+//            System.out.println(number);
+//        }
+//
+////Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow
+////this winter was(cm):” and the given number. Else print “The forecast snow is(cm):”.
+//
+//        int a = 10;
+//        if (a >= 6) {
+//            System.out.println("The amount of snow this winter was (cm):" + a);
+//        } else {
+//            System.out.println("The forecast snow is (cm)");
+//        }
+//// Given a number input, if the number is greater than 3 but not equal to 4, print “The
+////number is greater than 3 and not equal to 4”. Else if the number is equal to 4 print
+////”The number is equal to 4”. Else if the number is lower than 3 print “The number is
+////lower than 3”.
+//
+//        int x = 5;
+//        if (x >= 3) {
+//            System.out.println("The number is greater than 3 and not equal to 4");
+//        } else if (x == 4) {
+//            System.out.println("The number is equal to 4");
+//        } else if (x < 3) {
+//            System.out.println("The number is lower than 3");
+//        }
+//
+////If the user pressed number keys( from 0 to 9), the program will tell the number that is
+////pressed, otherwise, program will show "Not allowed”. (use a switch case for this).
+//
+//        System.out.println("Tasteaza un numar");
+//        int numar = scanner.nextInt();
+//        switch (numar) {
+//            case 0:
+//                System.out.println("0");
+//                break;
+//            case 1:
+//                System.out.println("1");
+//                break;
+//            case 2:
+//                System.out.println("2");
+//                break;
+//            case 3:
+//                System.out.println("3");
+//                break;
+//            case 4:
+//                System.out.println("4");
+//                break;
+//            case 5:
+//                System.out.println("5");
+//                break;
+//            case 6:
+//                System.out.println("6");
+//                break;
+//            case 7:
+//                System.out.println("7");
+//                break;
+//            case 8:
+//                System.out.println("8");
+//            case 9:
+//                System.out.println("9");
+//                break;
+//        }
 
-        if (z >= 2) {
-            System.out.println("z mai mare sau egal cu 2");
-        } else if (z <= 8) {
-            System.out.println("z mai mic sau egal cu 8");
-        }
-
-//     Given a text input and a number input, if the text is equal to “FastTrack” AND the number is equal to or lower than 3,
-//     print the text and the number. If the text is not “FastTrack” AND the number is equal to or higher than 4, print the number
-//     and the text, in this order.
-
-        String text = "Peaky Blinders";
-        int number = 1919;
-
-        if (!text.equals("FastTrack")) {
-            System.out.println(text);
-        } else if (number <= 3) {
-            System.out.println(number);
-        }
-        if (text.equals("FastTrack")) {
-            System.out.println(text);
-        } else if (number >= 4) {
-            System.out.println(number);
-        }
-
-//Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow
-//this winter was(cm):” and the given number. Else print “The forecast snow is(cm):”.
-
-        int a = 10;
-        if (a >= 6) {
-            System.out.println("The amount of snow this winter was (cm):" + a);
-        } else {
-            System.out.println("The forecast snow is (cm)");
-        }
-// Given a number input, if the number is greater than 3 but not equal to 4, print “The
-//number is greater than 3 and not equal to 4”. Else if the number is equal to 4 print
-//”The number is equal to 4”. Else if the number is lower than 3 print “The number is
-//lower than 3”.
-
-        int x = 5;
-        if (x >= 3) {
-            System.out.println("The number is greater than 3 and not equal to 4");
-        }else if ( x == 4){
-            System.out.println("The number is equal to 4");
-        }else if (x < 3){
-            System.out.println("The number is lower than 3");
-        }
-
-//If the user pressed number keys( from 0 to 9), the program will tell the number that is
-//pressed, otherwise, program will show "Not allowed”. (use a switch case for this).
 
 
 
@@ -119,7 +155,6 @@ public class Main {
 
 
 }
-
 
 
 //    int x = 3;
