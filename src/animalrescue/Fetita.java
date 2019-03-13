@@ -1,3 +1,5 @@
+package animalrescue;
+
 public class Fetita {
 
     private String nume;
@@ -44,19 +46,19 @@ public class Fetita {
 
 
     public void adopta() {
-        System.out.println("Fetita vrea sa adopte un catel");
+        System.out.println("animalrescue.Fetita vrea sa adopte un catel");
     }
 
     public void hraneste() {
-        System.out.println("Fetita hraneste catelul");
+        System.out.println("animalrescue.Fetita hraneste catelul");
     }
 
     public void plimba() {
-        System.out.println("Fetita plimba catelul");
+        System.out.println("animalrescue.Fetita plimba catelul");
     }
 
     public void dreseaza() {
-        System.out.println("Fetita dreseaza catelul");
+        System.out.println("animalrescue.Fetita dreseaza catelul");
     }
 
 }

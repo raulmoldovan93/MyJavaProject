@@ -1,3 +1,5 @@
+package calculator;
+
 public class Grafice {
 
     public String afisareHelloNume() {

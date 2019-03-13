@@ -1,3 +1,7 @@
+package animalrescue;
+
+import animalrescue.Animal;
+
 public class Cat extends Animal {
 
     private String rasa;

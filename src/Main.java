@@ -1,3 +1,7 @@
+import calculator.Calculator;
+import calculator.Grafice;
+import calculator.OperatiiLogice;
+
 import java.util.Scanner;
 
 public class Main {
@@ -34,7 +38,7 @@ public class Main {
 //
 
 
-//        Dog rex = new Dog();
+//        animalrescue.Dog rex = new animalrescue.Dog();
 //
 //        rex.setNume("Rex");
 //        rex.setVarsta(1);
@@ -218,16 +222,16 @@ public class Main {
 //        int z = scanez.nextInt();
 //
 //        float mySecondFloat = 3.3f;
-//        System.out.println(Grafice.afisareHelloNume());
+//        System.out.println(calculator.Grafice.afisareHelloNume());
 
-//        Dog rex = new Dog();
+//        animalrescue.Dog rex = new animalrescue.Dog();
 //        rex.nume = "Rex";
 //        rex.culoare = "Rosu";
 //        rex.greutate = 3.4f;
 //        rex.rasa = "Bichon";
 //        rex.varsta = 3;
 //
-//        Dog dingo = new Dog();
+//        animalrescue.Dog dingo = new animalrescue.Dog();
 //        dingo.nume = "Dingo";
 //        dingo.greutate = 35;
 //        dingo.rasa = "Ciobanesc";
@@ -235,7 +239,7 @@ public class Main {
 //        dingo.culoare = "Alb cu Negru";
 //        dingo.alearga();
 //
-//        Dog gigi = new Dog();
+//        animalrescue.Dog gigi = new animalrescue.Dog();
 //        gigi.nume = "Gigi";
 //        gigi.rasa = "Pug";
 //        gigi.culoare = "Maro";

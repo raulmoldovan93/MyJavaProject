@@ -1,3 +1,5 @@
+package animalrescue;
+
 public class Mancare {
 
     private String producator;

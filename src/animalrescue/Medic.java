@@ -1,3 +1,5 @@
+package animalrescue;
+
 public class Medic {
 
     private String nume;
