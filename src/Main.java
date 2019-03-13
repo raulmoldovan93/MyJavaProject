@@ -5,12 +5,14 @@ public class Main {
 
     public static void main(String[] args) {
         Calculator calc = new Calculator();
-
         OperatiiLogice op = new OperatiiLogice();
-
         Grafice graf = new Grafice();
-
         Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        op.printToHundred(n);
+
+    }
+
 
 //        op.sumAndAverageHundred();
 
@@ -21,19 +23,21 @@ public class Main {
 
 
 //
-        Dog rex = new Dog();
 
-        rex.setNume("Rex");
-        rex.setVarsta(1);
-        rex.setCuloare("negru");
-        rex.setGreutate(15);
-        rex.setRasa("caine lup");
 
-        System.out.println(rex.getNume());
-        System.out.println(rex.getVarsta());
-        System.out.println(rex.getCuloare());
-        System.out.println(rex.getGreutate());
-        System.out.println(rex.getRasa());
+//        Dog rex = new Dog();
+//
+//        rex.setNume("Rex");
+//        rex.setVarsta(1);
+//        rex.setCuloare("negru");
+//        rex.setGreutate(15);
+//        rex.setRasa("caine lup");
+//
+//        System.out.println(rex.getNume());
+//        System.out.println(rex.getVarsta());
+//        System.out.println(rex.getCuloare());
+//        System.out.println(rex.getGreutate());
+//        System.out.println(rex.getRasa());
 
 
 ////Given two numbers, see which one is the greatest and print it.
@@ -146,12 +150,6 @@ public class Main {
 //                System.out.println("9");
 //                break;
 //        }
-
-
-
-
-
-    }
 
 
 }
