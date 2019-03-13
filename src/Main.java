@@ -8,8 +8,17 @@ public class Main {
         OperatiiLogice op = new OperatiiLogice();
         Grafice graf = new Grafice();
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        op.printToHundred(n);
+//        int n = scanner.nextInt();
+//        op.printToHundred(n);
+
+
+
+
+        int[] myArray = op.getArrayHundred();
+
+        float average = op.getAverageArray(myArray);
+        System.out.println();
+
 
     }
 

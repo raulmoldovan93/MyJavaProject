@@ -61,8 +61,44 @@ public class OperatiiLogice {
 
     }
 
+    public int[] getArrayHundred() {
+        int[] myArray = new int[100];
 
+        for (int i = 0; i < 100; i++) {
+            myArray[i] = i + 1;
+        }
+        return myArray;
+    }
+
+    public float getAverageArray(int[] array) {
+        float sum = 0f;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        return sum / array.length;
+    }
+
+    public void printHyphenArray() {
+        String[] myArray = new String[10];
+        for (int i = 0; i < myArray.length; i++) {
+            myArray[i] = "- ";
+        }
+
+        for (int j = 0; j < 10; j++) {
+            for (int i = 0; i < myArray.length; i++) {
+                System.out.print(myArray[i]);
+            }
+            System.out.println();
+        }
+
+
+    }
 }
+
+
+
+
+
 
 
 
