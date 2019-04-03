@@ -1,6 +1,6 @@
 package animalrescue;
 
-public class Animal {
+public abstract class Animal {
     private String nume;
     private float greutate;
     private int varsta;
@@ -47,6 +47,10 @@ public class Animal {
     public void setCuloare(String culoare) {
         this.culoare = culoare;
     }
+
+    public abstract void mananca();
+
+    public abstract void alearga();
 
 
 

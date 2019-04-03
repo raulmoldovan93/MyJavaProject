@@ -1,8 +1,6 @@
 package animalrescue;
 
-import animalrescue.Animal;
-
-public class Dog extends Animal {
+public abstract class Dog extends Animal {
 
     private String rasa;
 
@@ -23,7 +21,6 @@ public class Dog extends Animal {
         System.out.println("Momentan, mananca niste Purina!");
     }
 
-    public void latra() {
-        System.out.println("HAM!");
+    public abstract void latra();
     }
-}
+
